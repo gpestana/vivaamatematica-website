@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v10/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v10/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v10/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+}
+
+@font-face {
+  font-family: novecento;
+  src: url('./fonts/Novecentowide-Book.otf');
+}
+
+
+h1, h2, h3, h4, p {
+  font-size: 1.2em;
+}
+
+footer {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container, h1, h2, h3, h4 {
+  font-family: novecento, Lato;
+}
+
+p {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+}
+
+
+/* nav menu */
+
+.nav li {
+  font-size: 15px;
+}
+
+.page-header {
+  border-bottom: 0px;
+}
+
+.main-text {
+  line-height: 1.8;
+}
+
+.testamento-text h4 {
+  line-height: 1.6;
+}
+
+.logo {
+  padding-top:  70px;
+  padding-bottom: 40px;
+  padding-left: 70px;
+}
+
+.yellow {
+  color: #faa619;
+}
+
+.blue {
+  color: #242C68;
+}
+
+.slider {
+  padding-bottom: 30px;
+}
+
+.inscricoes {
+  display: block;
+  padding-top: 30px;
+}
+
+li {
+list-style-type: none;
+}
+
+
+.butao {
+ padding-top: 30px;
+  padding-bottom: 20px;  
+}
+
+.programa {
+  padding-top: 50px;
+  padding-left: 30px;
+
+}
+
+.programa .row {
+  padding-top: 15px;
+  text-align: justify;
+}
+
+.programa #break {
+  text-align: center;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.programa h4 {
+  font-family: Source Sans Pro;
+  padding-top: 0px;
+}
+
+
+/* oradores */
+#oradores {
+  //padding-top: 100px;
+}
+#orador-texto  {
+  padding-top: 100px;
+}
+
+#orador-img {
+  padding-top:130px;
+}
+
+#orador-texto {
+  text-align: justify;  
+}
+
+#orador-texto h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+/*edicoes passadas*/
+
+
+#edicao-passada-menu {
+  padding-top: 30px;
+}
+
+#edicao-passada-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#edicao-passada-menu ul li {
+  display: inline;
+  font-family: novecento;
+  padding-right: 15px;
+}
+
+
+#edicao-passada-texto {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+#edicao-passada-texto li {
+  font-size: 20px;
+  padding-top: 10px;
+  text-indent: 10px;
+}
+
+#edicao-passada-texto ul {
+  padding-bottom:30px;
+}
+
+#edicao-passada-texto p, li {
+  font-family: Source Sans Pro;
+  text-align: justify;
+}
+
+
+#edicao-passada-imgs, #edicao-passada-oradores, #edicao-passada-programa, #edicao-passada-suporte {
+  padding-bottom: 30px;  
+}
+
+
+#edicao-passada-imgs h2, #edicao-passada-oradores h2, #edicao-passada-programa h2, #edicao-passada-suporte h2 {
+  font-size:28px;
+}
+
+
+#edicao-passada-imgs {
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+#edicao-passada-imgs p {
+  font-family: Source Sans Pro;
+  text-align: justify;
+}
+
+#edicao-passada-imgs #galeria-fotos {
+  padding-top: 30px;
+  height: 500px;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#edicao-passada-oradores #orador-img  {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#edicao-passada-oradores #orador-texto  {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+#edicao-passada-oradores #orador-texto {
+  padding-left: 70px;
+}
+
+#edicao-passada-oradores p {
+  font-family: Source Sans Pro;
+  text-align: justify;
+}
+
+
+
+#edicao-passada-programa p {
+  font-family: Source Sans Pro;
+  text-align: justify;
+}
+
+
+#edicao-passada-suporte p {
+  font-family: Source Sans Pro;
+  text-align: justify;
+}
+
+#edicao-passada-suporte h2 {
+  padding: 50px 0 50px 0 ;
+}
+
+#edicao-passada-programa #break {
+  padding-left: 100px;
+  text-align: left;
+}
+
+
+#mapa h3 {
+padding-top: 50px;
+}
+
+#mapa {
+padding-top: 70px;
+}
+
+/*links*/
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: blue;
+}
+
+/*butao*/
+.butao a:link {
+    color: white;
+}
+.butao a:visited {
+    color: white;
+}
+.butao a:hover {
+    color: white;
+}
+.butao a:active {
+    color: white;
+}
+

@@ -1,0 +1,10 @@
+<div class = "row">
+<div class="col-md-3" id="orador-img">
+ <li><img src="img/oradores/"</li>
+</div>
+<div class="col-md-9" id="orador-texto">
+<h3 class="yellow"> </h3>
+<p>
+</p>
+</div>
+</div>
