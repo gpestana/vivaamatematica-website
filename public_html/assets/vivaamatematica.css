@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: novecento;
-  src: url('./fonts/Novecentowide-Book.otf');
+  src: url('fonts/Novecentowide-Book.otf');
 }
 
 
@@ -129,6 +129,8 @@ list-style-type: none;
   padding-top:130px;
 }
 
+
+
 #orador-texto {
   text-align: justify;  
 }
@@ -138,6 +140,13 @@ list-style-type: none;
   font-weight: bold;
   padding-bottom: 10px;
 }
+/* esta é a tabela/páginas de texto inteiro*/
+#tabela{
+margin: auto;
+padding: 77px;
+width: 75%;
+}
+
 
 /*edicoes passadas*/
 
